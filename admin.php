@@ -47,12 +47,12 @@
     echo "<div class='grid-container'>"; // Start the grid container
     while ($row = $result->fetch_assoc()) {
       echo "<div class='orders'>"; // Start each order item
-      echo "<p><i class='fas fa-user'></i>&nbspName:" . $row["name"] . "</p>";
-      echo "<p><i class='fa fa-envelope'></i>&nbspEmail: " . $row["email"] . "</p>";
-      echo "<p><i class='fa fa-phone'></i>&nbspPhone: " . $row["phone"] . "</p>";
-      echo "<p><i class='fa fa-capsules'></i>&nbspDrug: " . $row["drug"] . "</p>";
-      echo "<p><i class='fas fa-balance-scale'></i>&nbsp;Quantity: " . $row["quantity"] . "</p>";
-      echo "<p><i class='fas fa-map-marker-alt'></i>&nbsp;Delivery Address: " . $row["delivery_addr"] . "</p>";
+      echo "<p>&nbsp&nbsp<i class='fas fa-user'></i>&nbsp&nbsp&nbsp" . $row["name"] . "</p>";
+      echo "<p>&nbsp&nbsp<i class='fa fa-envelope'></i>&nbsp&nbsp&nbsp" . $row["email"] . "</p>";
+      echo "<p>&nbsp&nbsp<i class='fa fa-phone'></i>&nbsp&nbsp&nbsp" . $row["phone"] . "</p>";
+      echo "<p>&nbsp&nbsp<i class='fa fa-capsules'></i>&nbsp&nbsp&nbsp" . $row["drug"] . "</p>";
+      echo "<p>&nbsp&nbsp<i class='fas fa-balance-scale'></i>&nbsp&nbsp&nbsp" . $row["quantity"] . "</p>";
+      echo "<p>&nbsp&nbsp<i class='fas fa-map-marker-alt'></i>&nbsp&nbsp&nbsp" . $row["delivery_addr"] . "</p>";
       echo "</div>"; // End each order item
     }
     echo "</div>"; // End the grid container
