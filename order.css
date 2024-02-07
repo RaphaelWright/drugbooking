@@ -1,0 +1,17 @@
+.grid-container {
+    display: flex; /* Use flexbox for the container */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if there's not enough space */
+    gap: 10px; /* Gap between grid items */
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.orders {
+    flex: 0 0 calc(33.33% - 20px); /* Each item takes up equal space with a 20px gap */
+    box-sizing: border-box; /* Include padding and border in the width */
+    border: 3px solid #000000; /* Border for each item */
+    padding: 10px; /* Padding inside each item */
+    border-radius: 15px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
