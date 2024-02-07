@@ -8,10 +8,10 @@
 
 .orders {
     flex: 0 0 calc(33.33% - 20px); /* Each item takes up equal space with a 20px gap */
-    box-sizing: border-box; /* Include padding and border in the width */
-    border: 1px solid #000000; /* Border for each item */
+    box-sizing: border-box; 
+    border: 3px solid #f80000;
     padding: 10px; /* Padding inside each item */
-    border-radius: 15px;
+    border-radius: 20px;
     font-size: larger;
     font-family: Arial, Helvetica, sans-serif;
 }

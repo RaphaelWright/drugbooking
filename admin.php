@@ -18,11 +18,11 @@
     </div>
   </div>
   <section id="banner">
-    <h1 class="banner">Hello, Admin</h1>
+    <!-- <h1 class="banner">Hello, User</h1> -->
   </section>
 
   <?php
-  echo "<link rel='stylesheet' href='order.css'/>";
+  echo "<link rel='stylesheet' href='order.css' />";
   // Database connection parameters
   $servername = "localhost"; // Change this to your database server name if different
   $username = "root"; // Change this to your database username
