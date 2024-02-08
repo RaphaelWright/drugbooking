@@ -64,9 +64,7 @@ h2 {
 
 #add form {
   padding-left: 30px;
-}
-
-#add form input[type="text"] {
+}#add form input[type="text"]{
   width: 25%;
   padding: 12px 20px;
   box-sizing: border-box;

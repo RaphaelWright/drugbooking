@@ -12,7 +12,7 @@
     <div class="navbar">
       <ul>
         <li><a href="#">Orders</a></li>
-        <li><a href="#">Add Drugs</a></li>
+        <li><a href="#add">Add Drugs</a></li>
         <li><a href="#">Update Drugs</a></li>
       </ul>
     </div>
