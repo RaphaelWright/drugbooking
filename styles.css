@@ -1,25 +1,26 @@
+/*CSS CODE FOR ADMIN PAGE*/
 .topbar {
   display: flex;
-  justify-content: space-between; /* Aligns items to opposite ends of the container */
-  align-items: center; /* Centers items vertically within the container */
+  justify-content: space-between; 
+  align-items: center; 
   background-color: #f2f2f2;
   padding: 10px;
   margin-bottom: 0;
 }
 
 .navbar {
-  margin-right: 20px; /* Add margin to create space between h1 and navbar */
+  margin-right: 20px; 
 }
 
 .navbar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  text-align: right; /* Align list items to the right */
+  text-align: right; 
 }
 
 .navbar ul li {
-  display: inline; /* Display list items horizontally */
+  display: inline; 
 }
 
 .navbar ul li a {

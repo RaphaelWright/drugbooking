@@ -1,3 +1,4 @@
+//PHP SIDE FOR THE CLIENT SIDE
 <?php
 echo "<h1>Drug Order Form</h1>
 <form method='post'>
@@ -11,7 +12,7 @@ echo "<h1>Drug Order Form</h1>
   <input type='tel' id='phone' name='phone' required>
   <br>
   <label for='drug'>Drug:</label>
-  <input type='text' id='drug' name='drug' required> <!-- Add id and required attribute -->
+  <input type='text' id='drug' name='drug' required> 
   <br>
   <label for='quantity'>Quantity:</label>
   <input type='number' id='quantity' name='quantity' required>
@@ -24,9 +25,9 @@ echo "<h1>Drug Order Form</h1>
 ";
 
 // Database connection parameters
-$servername = "localhost"; // Change this to your database server name if different
-$username = "root"; // Change this to your database username
-$password = ""; // Change this to your database password
+$servername = "localhost";
+$username = "root"; 
+$password = ""; 
 $dbname = "drug_db";
 
 // Create connection
